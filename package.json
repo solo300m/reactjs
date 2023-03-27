@@ -1,0 +1,26 @@
+{
+  "name": "test_projecnpmt",
+  "version": "1.0.0",
+  "main": "bundle.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development webpack serve --open"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "npm": "^9.6.2",
+    "tsc": "^2.0.4"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.2",
+    "webpack": "^5.76.3",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.1"
+  }
+}
